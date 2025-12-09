@@ -18,6 +18,8 @@ import { LovedComponent } from './welcome/loved/loved.component';
 import { MobilesecurityComponent } from './welcome/mobilesecurity/mobilesecurity.component';
 import { LatestinsightsComponent } from './welcome/latestinsights/latestinsights.component';
 import { SpywareComponent } from './welcome/spyware/spyware.component';
+import { FindComponent } from './welcome/find/find.component';
+import { AboutComponent } from './welcome/about/about.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { SpywareComponent } from './welcome/spyware/spyware.component';
     LovedComponent,
     MobilesecurityComponent,
     LatestinsightsComponent,
-    SpywareComponent
+    SpywareComponent,
+    FindComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
